@@ -8,10 +8,11 @@
 ## 画面スワイプ
 <img width='300' src='https://user-images.githubusercontent.com/1549408/113248447-f894a280-92f7-11eb-8475-401e351f423e.gif'>
 
-## リスト
+## 画像
 <img width='300' src='https://user-images.githubusercontent.com/1549408/113248624-4c9f8700-92f8-11eb-97c5-2160b648a4e4.png'>
 
-## 画像
+
+## リスト
 <img width='300' src='https://user-images.githubusercontent.com/1549408/113248631-4e694a80-92f8-11eb-93fa-e77fd96e098c.png'>
 
 ## 中心に要素配置
