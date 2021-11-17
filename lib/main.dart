@@ -4,6 +4,7 @@ import './main_layout.dart';
 import './list_view.dart';
 import './main_image.dart';
 import './main_pageview.dart';
+import './main_connective.dart';
 
 void main() {
   // debugPaintSizeEnabled = true;
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/layout': (BuildContext context) => new LayoutSamplePage(),
         '/image': (BuildContext context) => new ImageSamplePage(),
         '/pageView': (BuildContext context) => new PageViewSample(),
+        '/connective': (BuildContext context) => new ConnectiveSamplePage(),
       },
     );
   }
@@ -56,6 +58,7 @@ class LinkList extends StatelessWidget {
         {'label': 'レイアウトサンプル', 'page': '/layout'},
         {'label': 'イメージサンプル', 'page': '/image'},
         {'label': '画面スワイプ移動', 'page': '/pageView'},
+        {'label': 'オフラインチェック', 'page': '/connective'},
       ];
       // List<Widget> res = [];
       // pageList.forEach((e) => res.add(_buildRow(e['label'], e['page'])));
