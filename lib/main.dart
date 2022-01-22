@@ -5,6 +5,9 @@ import './list_view.dart';
 import './main_image.dart';
 import './main_pageview.dart';
 import './main_connective.dart';
+import './google_calendar_screen.dart';
+import './export_screen.dart';
+import './report_screen.dart';
 
 void main() {
   // debugPaintSizeEnabled = true;
@@ -30,6 +33,9 @@ class MyApp extends StatelessWidget {
         '/image': (BuildContext context) => new ImageSamplePage(),
         '/pageView': (BuildContext context) => new PageViewSample(),
         '/connective': (BuildContext context) => new ConnectiveSamplePage(),
+        '/google_calendar': (BuildContext context) => new GoogleCalendarScreen(),
+        '/export': (BuildContext context) => new ExportScreen(),
+        '/report': (BuildContext context) => new ReportScreen(),
       },
     );
   }
@@ -59,6 +65,9 @@ class LinkList extends StatelessWidget {
         {'label': 'イメージサンプル', 'page': '/image'},
         {'label': '画面スワイプ移動', 'page': '/pageView'},
         {'label': 'オフラインチェック', 'page': '/connective'},
+        {'label': 'Googleカレンダー連携', 'page': '/google_calendar'},
+        {'label': 'エクスポート(ファイル出力)', 'page': '/export'},
+        {'label': 'チャート', 'page': '/report'},
       ];
       // List<Widget> res = [];
       // pageList.forEach((e) => res.add(_buildRow(e['label'], e['page'])));
